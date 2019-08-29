@@ -85,3 +85,9 @@ parcel watch src/**/*.pug
 ```
 parcel src/**/*.pug -d public
 ```
+
+部分的なpugファイルを使って構成している場合アンダースコアを除外したparcelの指定
+
+```
+parcel src/**/[^_]*.pug
+```
